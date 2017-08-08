@@ -1,0 +1,17 @@
+{
+    "name": "bostin/xlsxwriter",
+    "description": "Office 2007+ XLSX 写操作",
+    "keywords": ["php", "library","xls", "xlsx", "excel"],
+    "type": "library",
+    "homepage": "https://github.com/bostin/xlsxwriter",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bostin\\Office\\Excel\\": "./src"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "ext-zip": "*"
+    }
+}
